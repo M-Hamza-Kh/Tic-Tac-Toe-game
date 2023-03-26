@@ -1,0 +1,23 @@
+.div {
+  width: 20%;
+  border: 1px solid #0da192;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  font-weight: 900;
+  background-color: #14bdac;
+}
+@media screen and (max-width: 500px) {
+  .div {
+    width: 100%;
+  }
+}
+.button {
+  background-color: rgb(116, 179, 179);
+  color: white;
+  border-radius: 10px;
+  padding-block: 5px;
+  border: 1px solid mediumspringgreen;
+}
